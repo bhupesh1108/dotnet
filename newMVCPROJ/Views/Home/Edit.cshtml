@@ -1,0 +1,16 @@
+@using Model;
+
+@{
+    Student s=new Student();
+    s=ViewData["stu"] as Student;
+}
+
+
+<from action="Post" >
+Id        <input type="number" name="id" placeholder="@s.Id" readonly>
+Firstname <input type="text" name="firstname" value="@s.Firstname">
+Lastname  <input type="text" name="lastname" value="@s.Lastname">
+email      <input type="text" name="email" value="@s.email">
+<button type="submit">update</button>
+
+</from>

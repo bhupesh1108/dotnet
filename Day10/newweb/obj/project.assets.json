@@ -1790,11 +1790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\DotNet\\Day10\\newweb\\newweb.csproj",
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\DotNet\\Bhupesh\\dotnet\\Day10\\newweb\\newweb.csproj",
       "projectName": "newweb",
-      "projectPath": "C:\\Users\\IET\\Desktop\\DotNet\\Day10\\newweb\\newweb.csproj",
+      "projectPath": "C:\\Users\\IET\\Desktop\\DotNet\\Bhupesh\\dotnet\\Day10\\newweb\\newweb.csproj",
       "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\DotNet\\Day10\\newweb\\obj\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\DotNet\\Bhupesh\\dotnet\\Day10\\newweb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"

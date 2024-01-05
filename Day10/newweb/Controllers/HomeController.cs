@@ -31,6 +31,9 @@ return View();
        
     }
     
+    public IActionResult Registration(){
+      
+    }
     
     public IActionResult Privacy()
     { 

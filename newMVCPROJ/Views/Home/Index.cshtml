@@ -1,0 +1,35 @@
+﻿@using Model;
+
+@{
+    ViewData["Title"] = "Home Page";
+    List<Student> st=new List<Student>();
+        st=ViewData["student"] as List<Student>;
+<table>
+    <thead>
+
+    </thead>
+    <tbody>
+        @foreach(Student s in st){
+            <tr>
+                <td>
+                  @s.Id
+                </td>
+                <td>
+                    @s.Firstname
+                </td>
+                <td>
+                    @s.Lastname
+                </td>
+                <td>
+                    @s.email
+                </td>
+                <td>
+                    <a href="Edit/@s.Id">update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="C:\Users\IET\Desktop\DotNet\Bhupesh\dotnet\newMVCPROJ\Views\Home\List.cshtml">List</a>
+}
+
