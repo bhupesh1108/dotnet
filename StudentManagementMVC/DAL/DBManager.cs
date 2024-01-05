@@ -25,8 +25,6 @@ public class DBManager{
 
         }
         return slist;
-        
-
     }
     public static bool UpdateData(int id, String nameFirst, String namelast, String email){
         MySqlConnection conn= new MySqlConnection();
